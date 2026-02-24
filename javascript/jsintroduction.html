@@ -1,0 +1,74 @@
+<!-- javascript is a crosss platform,object-based scripting language for client and server applications,nit is used everywhere.
+loosely typed language.
+interpreted at just in time compilation(runtime)rather than compile time.
+high leval and multi paradigm. -->
+
+  <!---  js features:
+    extends functionality of web pages.
+    written in the html page and run by the web browser.
+    can be used for client side and server side development.
+    client side: runs on the user's browser, used for creating interactive web pages and user interfaces.
+    server side: runs on the server, used for building web applications and APIs.
+    supports object-oriented programming, functional programming, and procedural programming.-->
+
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to JavaScript</title>
+   </head>
+   <body>
+    <h2> JavaScript </h2>
+       <script>
+//            <!--In JavaScript, a variable is a named container used to store data values that can be referenced and manipulated in a program.
+
+// JavaScript variables:
+
+// Hold data such as numbers, strings, objects, arrays, etc.
+// Do not require explicit type declaration (JavaScript is dynamically typed).
+// Can be declared using:
+// var – function-scoped (older, avoid in modern code)
+// let – block-scoped, can be reassigned
+// const – block-scoped, cannot be reassigned after initialization
+// Syntax:
+// Javascript
+
+// Copy code
+// let name = "John";   // String
+// const age = 25;      // Number
+// var isActive = true; // Boolean
+// Key Points:
+// Declaration: Creating the variable (let x;)
+// Initialization: Assigning a value (x = 10;)
+// Scope: Determines where the variable can be accessed (block, function, or global)
+// Hoisting: Variable declarations are moved to the top of their scope during execution, but initialization is not.      -->
+  var myName = "ABESEC";
+  //The document in javascript is a global object that represents the webpage in the browser.
+  document.write(myName);//output on browser
+  console.log(myName);//o/p on console window
+//js execution and scope in js(global and local[block])
+function hello(){
+    var msg= "thanks to visit";
+    console.log(msg);//local or block
+
+}
+hello();
+ // variable declaration using let and const
+
+ let myRollno=2503201000371;
+ console.log(myRollno);
+   myRollno=2503201000375; //not declare but can be reassigned
+   console.log(myRollno);
+ const myPhoneno=9625405768;
+ console.log( "my phone no. is" +myPhoneno);
+
+  //myphoneno =1111111111; not redefine and reassign in const
+  console.log(myphoneno);
+
+
+
+       </script>
+    
+   </body>
+   </html>
