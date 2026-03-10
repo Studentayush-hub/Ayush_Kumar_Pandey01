@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condityional statement in JS</title>
+</head>
+<body>
+    <script>
+        //conditional statements control the program flow by executing specific blocks
+        //  of code based on whether a condition evaluates to true or false.
+        //  They are essential for decision-making in scripts, enabling dynamic
+        //  and interactive behavior.
+
+
+        //if....
+        let age= 28;
+        if(age<18){
+            console.log("Not eligible for vote casting");
+        }
+        console.log("Eligible for vote casting");
+
+        //if ...else
+        let myAge= 24;
+        if(age>=18){
+            console.log("you are eligible for vote casting");
+        }
+        else{
+            console.log("Sorry, you are not eligible")
+        }
+
+        //switch statment: The switch statement in JavaScript is used to perform
+        //  different actions based on different conditions. It evaluates an expression,
+        //  matches the expression's value against a series of case clauses, and executes
+        //  statements after the first case clause with a matching value until a break
+        //  statement is encountered.
+
+
+
+        let grade= 50;
+        switch(grade){
+            case'A':result="First Divison";
+            break;
+            case'B':result="Second Division";
+            break;
+            case'C':result="Third Division";
+            break;
+            default:result="fail";
+        }
+        console.log(result);
+
+        //else if statement: The else if statement in JavaScript is used to test
+        //  multiple conditions sequentially. It comes after an if statement and before
+        //  a final else, allowing you to handle different scenarios with separate code
+        //  blocks.
+
+
+
+        let marks=32;
+
+        if(marks<=33){
+            console.log("Grade Third");
+
+        }
+        else if(marks>33 && marks< 60){
+            console.log("Grade Second");
+        }
+        else{
+            console.log("Grade First");
+        }
+    </script>
+    
+</body>
+</html>
